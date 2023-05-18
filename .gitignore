@@ -160,3 +160,5 @@ cython_debug/
 .idea/
 
 sim.npy
+*.h5
+*.bin
