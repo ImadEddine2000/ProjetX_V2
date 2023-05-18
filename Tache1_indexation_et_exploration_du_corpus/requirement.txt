@@ -1,0 +1,11 @@
+tqdm
+pandas
+scipy==1.10.0
+scikit-learn==1.2.1
+seaborn==0.12.2
+matplotlib==3.7.1
+plotly==5.14.1
+keras
+tensorflow
+umap-learn
+cupy-cuda11x ## selon la version
