@@ -22,11 +22,14 @@ def download_file_from_google_drive(url):
 
 
 if __name__ == "__main__":
+  for path in PATHS:
+    if not os.path.exsist(path):
+      os.makedirs(path, exist_ok=True)
 
-     download_file_from_google_drive(URL)
-     for to, names in PATHS.items():
-         for name in names:
-            shutil.move(os.path.join(FOLDER_NAME, name), os.path.join(to, name))
-     shutil.rmtree(FOLDER_NAME)
+  download_file_from_google_drive(URL)
+    for to, names in PATHS.items():
+       for name in names:
+          shutil.move(os.path.join(FOLDER_NAME, name), os.path.join(to, name))
+  shutil.rmtree(FOLDER_NAME)
 
 
