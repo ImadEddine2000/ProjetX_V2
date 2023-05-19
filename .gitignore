@@ -162,3 +162,4 @@ cython_debug/
 sim.npy
 *.h5
 Tache3_Analyse_opinion/Transformer/Model/Model/
+training_noemoticon.csv

@@ -8,7 +8,7 @@ PATHS = {os.path.join("Tache3_Analyse_opinion", "Transformer", "Model", "Model")
          os.path.join("Tache3_Analyse_opinion", "Bi-LSTM", "Model"):["bidirectional_lstm_NN.h5"],
          os.path.join("Tache3_Analyse_opinion", "CNN", "Model"):["CNN.h5"],
          os.path.join("Tache4_barre_de_recherche","model","LSTM","Model"):["bidirectional_lstm_NN_ranking.h5"],
-         os.path.join("Tache3_Analyse_opinion", "train"):["training_noemoticon.csv"]
+         os.path.join("Tache3_Analyse_opinion", "train"):["training_noemoticon.csv"],
          os.path.join("result"):["sim.npy"]}
 
 FOLDER_NAME = "Model"
