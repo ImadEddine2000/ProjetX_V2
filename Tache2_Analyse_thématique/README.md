@@ -1,5 +1,5 @@
 # Tâche 2 Analyse thématique du corpus 
-Dans cette partie nous avons utilisé deux modèles non supervisées: 
+Dans cette partie, afin d'extraire les thèmes du corpus, nous avons utilisé un modèle non supervisé: 
  - **LDA(Latent Dirichlet Allocation)** :  est une méthode de modélisation de sujets largement utilisée dans le domaine du traitement automatique du langage naturel. L'objectif principal de LDA est de découvrir les thémes sous-jacents dans un ensemble de documents en supposant que chaque document est une combinaison de plusieurs sujets et que chaque mot dans le document est attribué à un de ces sujets.
  
 # [LDA(Latent Dirichlet Allocation)](./LDA.ipynb)
