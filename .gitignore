@@ -160,3 +160,5 @@ cython_debug/
 .idea/
 
 sim.npy
+*.h5
+Tache3_Analyse_opinion/Transformer/Model/Model/
