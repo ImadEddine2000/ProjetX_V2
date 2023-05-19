@@ -1,3 +1,8 @@
+
+import subprocess
+subprocess.check_call(["pip", "install", "gdown"])
+
+
 import gdown
 import os
 import shutil
