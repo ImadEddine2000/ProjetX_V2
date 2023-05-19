@@ -25,7 +25,7 @@ if __name__ == "__main__":
         if not os.path.exists(path):
           os.makedirs(path, exist_ok=True)
 
-    #download_file_from_google_drive(URL)
+    download_file_from_google_drive(URL)
     for to, names in PATHS.items():
        for name in names:
           shutil.move(os.path.join(FOLDER_NAME, name), os.path.join(to, name))
