@@ -28,5 +28,5 @@ history = bi_lstm_nn.fit(train_padded, y_train, epochs=100, validation_split=0.1
 Le résultat de la recherche pour la requête **"Donald Trump's presidential campaign"** serait le suivant :
 ![lstm_ranking](./content/lstm_ranking.png)
 
-# [BERT](./model/Bert/TER-BERT)
+# [BERT](./model/Bert/TFR-BERT)
 
