@@ -5,7 +5,7 @@ Dans cette section, nous utiliserons des méthodes de recherche dans le corpus. 
 # [LSTM](./model/LSTM)
 L'architecture du modèle sera basée sur celle de la [Tâche 3 : Analyse d'opinions](../Tache3_Analyse_opinion/Bi-LSTM), avec quelques similitudes. Le modèle sera entraîné sur le corpus des tweets annotés de la [Tâche 2 d'Analyse thématique du corpus](../Tache2_Analyse_thématique/content/clean_tweet_topics.csv).
 
-![lstm_architecture](./model/LSTM/content/lstm_architecture.png)
+![lstm_architecture]./model/LSTM/content/lstm_architecture.png)
 
 les paramêtre d'entrainement :
 ---
