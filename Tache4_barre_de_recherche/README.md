@@ -30,3 +30,7 @@ Le résultat de la recherche pour la requête **"Donald Trump's presidential cam
 
 # [BERT](./model/Bert/TFR-BERT)
 
+Vous allez entraîner un modèle de classement pour ANTIQUE, un ensemble de données de questions-réponses, en utilisant BERT comme fonction de score. BERT (Bidirectional Encoder Representations from Transformers) est une technique d'apprentissage automatique basée sur les transformers qui s'est avérée efficace dans de nombreuses tâches de traitement du langage naturel (NLP). Des recherches récentes sur [TFR-BERT](https://arxiv.org/pdf/2004.08476.pdf) ont démontré l'efficacité de BERT en tant que fonction de score pour les tâches d'apprentissage du classement.
+
+Dans cette implémentation, nous avons utilisé la bibliothèque **TensorFlow** pour mettre en place et entraîner le modèle.
+
