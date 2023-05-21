@@ -29,3 +29,4 @@ Le résultat de la recherche pour la requête **"Donald Trump's presidential cam
 ![lstm_ranking](./content/lstm_ranking.png)
 
 # [BERT](./model/Bert/Pointwise)
+
