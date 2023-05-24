@@ -6,7 +6,7 @@ Pour la partie d'implémentation des  modèles neuronaux nous avons utilisé deu
 
 # [LSTM](./Bi-LSTM/) et [CNN](./CNN) 
 
-Avant de commencer ,nous avons  utilisé les 1,5 millions de tweets non étiquetés avec **Word2vec** pour pré-entraîner les embeddings de mots qui seront ensuite utilisés dans les réseaux de neurones CNN et LSTM. Pour cela nous avons utilsé la librerie <code>gensim</code>, avec le code suivant:
+Avant de commencer ,nous avons  utilisé les 1,5 millions de tweets non étiquetés avec **Word2vec** pour pré-entraîner les embeddings de mots qui seront ensuite utilisés dans les réseaux de neurones CNN et LSTM. Pour cela nous avons utilisé la librerie <code>gensim</code>, avec le code suivant:
 
 ```python
   def get_average_word2vec(tokens_list, vector, generate_missing=False, k=300):
